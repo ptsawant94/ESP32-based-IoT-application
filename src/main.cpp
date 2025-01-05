@@ -23,6 +23,7 @@ bool onPowerState(const String &deviceId, bool &state) {
   return true; // indicate that callback handled correctly
 }
 
+//just checkin
 // setup function for WiFi connection
 void setupWiFi() {
   printf("\r\n[Wifi]: Connecting");
