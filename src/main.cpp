@@ -13,6 +13,7 @@
 #define APP_SECRET "28620882-5b78-4f33-a24d-457d3771a95c-5f974a2e-f1b1-4cad-8ad9-3d9ca8a5ec93" // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
 #define SWITCH_ID  "632910bcfa69c39e7cceb777"  // Should look like "5dc1564130xxxxxxxxxxxxxx"
 
+//on power state function
 bool onPowerState(const String &deviceId, bool &state) {
   printf("device %s turned %s\r\n", deviceId.c_str(), state?"on":"off");
   if(state)
