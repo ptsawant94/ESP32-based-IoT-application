@@ -31,6 +31,7 @@ void setupWiFi() {
   while (WiFi.status() != WL_CONNECTED) {
     printf(".");
     delay(250);
+    delay(100);
   }
   }
 
